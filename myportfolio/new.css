@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #ededed;
+    background: #081b29;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #051129;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    z-index: 100;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+/* Home */
+.home {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 70px 10%;
+    background: url('background.png') no-repeat;
+    background-size: cover;
+}
+
+.home-sci a {
+    color: #0ef;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.btn-box {
+    padding: 12px 28px;
+    background: #0ef;
+    color: #081b29;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 20px #0ef;
+}
+
+/* Services */
+.services-list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.services-list div {
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.services-list div:hover {
+    transform: translateY(-5px);
+}
+#skills {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.heading1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.technical-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.bar i {
+    font-size: 30px;
+    width: 40px;
+}
+
+.progress-container {
+    flex: 1;
+    height: 8px;
+    background: black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-line {
+    height: 100%;
+    background: cyan;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.progress-line.html { width: 90%; }
+.progress-line.css { width: 70%; }
+.progress-line.javascript { width: 75%; }
+.progress-line.python { width: 60%; }
+.progress-line.react { width: 80%; }
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <h1>Welcome to the Quiz Application</h1>
+    </header>
+    <p>
+      Test your knowledge with this quick quiz! Answer each question and receive instant feedback to see how you’re doing. Good luck!
+    </p>
+    <div class="quiz-container">
+      <div id="question-container">
+        <p id="question"></p>
+        <div id="answers">
+          <!-- Answers will be inserted here -->
+        </div>
+      </div>
+      <button id="next-button" onclick="nextQuestion()">Next</button>
+      <p id="feedback"></p>
+    </div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
