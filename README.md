@@ -13,3 +13,8 @@
 **MENTOR NAME**:NEELA SANTOSH
 
 DESCRIPTION: The Portfolio section displays projects with titles, brief descriptions, technologies used. Built using HTML, CSS, and JavaScript, it provides smooth interactivity and a visually appealing design. This section helps visitors explore your work and skills effectively across all devices.
+
+
+# OUTPUT OF THE TASK 
+
+![Image](https://github.com/user-attachments/assets/5825ca9d-b49c-4476-8fd7-2805a64b7ddd)
